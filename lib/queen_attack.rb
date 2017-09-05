@@ -1,5 +1,5 @@
 require 'pry'
 
 def queen_attack?(queen_corrdinates, piece_corrdinates)
-  queen_corrdinates[0] == piece_corrdinates[0]
+  queen_corrdinates.first == piece_corrdinates.first || queen_corrdinates.last == piece_corrdinates.last
 end
